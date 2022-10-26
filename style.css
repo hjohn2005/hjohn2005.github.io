@@ -8,6 +8,9 @@ body{
         background-color: #f1f1f1;
         overflow: hidden;
         text-align: center;
+        position: fixed;
+        width: 100%;
+        top:0;
         
     }
     
@@ -57,14 +60,25 @@ body{
     }
 
     
-   
-
-   
-    
-    .appy iframe{
+     .appy iframe{
         margin-left:40%;
     }
     img{
         margin-left:40%;
         margin-top:15%;
+    }
+    .main{
+        
+      
+    }
+    .main > h1{
+        margin: 60px;
+        margin-right: 60px;
+        margin-left: 420px;
+        font-size: 45px;
+    }
+    .main > img{
+       margin:20px;
+       margin-left:500px;
+       margin-right:60px ;
     }
