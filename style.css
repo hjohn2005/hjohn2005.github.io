@@ -34,6 +34,13 @@ body{
         transition: .3s;
         width: 200px;
     }
+    .nav li{
+        float:left;
+        clear:left;
+        margin-right: 20%;
+        vertical-align: top;
+        margin-left:1%;
+    }
     .nav > .nav-links > ul li a{
     color: rgb(0, 0, 0);
     line-height:30px;
@@ -49,6 +56,10 @@ body{
     background-color:coral;
     
     }
-    iframe{
+    .appy iframe{
         margin-left:40%;
+    }
+    img{
+        margin-left:40%;
+        margin-top:15%;
     }
